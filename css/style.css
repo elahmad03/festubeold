@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* header styles */
+.ahg_header {
+    width: 100%;
+}
+
+.bg-light {
+    background: #fff !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #4287f5;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #4254f5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2985fd;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(33, 30, 194, 0.753);
+}
+
+.navbar-light .navbar-toggler {
+    color: #2985fd;
+    border-color: #4254f5;
+}
+
+.user-btn {
+    text-align: center;
+}
+
+.btn-login {
+    width: 45%;
+      background: #7ace4c;
+      color: #fff;
+      border-radius: 1.3125rem;
+      margin-right: 5%;
+}
+
+.btn-login:hover {
+    background: #1db125;
+    color: #000;
+}
+
+.btn-signup {
+    width: 45%;
+    background: #2985fd;
+    color: #fff;
+    border-radius: 1.3125rem;
+}
+
+.btn-signup:hover {
+    background: #4254f5;
+    color: #000;
+}
+/* for large screens */
+@media (min-width: 992px) {
+    .user-btn {
+        text-align: center;
+    }
+    .btn-login {
+        width: auto;
+        background: #7ace4c;
+        color: #fff;
+        border-radius: 1.3125rem;
+        margin-right: auto;
+    }
+    .btn-signup {
+        width: auto;
+        background: #2985fd;
+        color: #fff;
+        border-radius: 1.3125rem;
+    }
+}
+
+/* showcase styles */
+.carousel-item{
+    text-align: center;
+    height: 300px;
+
+}
+
+/* abut us  */
+#about {
+    margin: 2rem 0;
+}
+.title {
+    text-align: center;
+
+}
+.title h3{
+    display: inline-block;
+    padding: 2px 0.5rem;
+    text-transform: capitalize;
+    border-left: 5px solid #2985fd;
+}
+#about p.content {
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+}
+/* anouncement styles */
+#announcement {
+    background: #fff;
+    color: #000;
+    margin: 0.5rem auto;
+    padding: 0.8rem;
+}
+
+#announcement .title {
+    display: inline-block;
+    background: #2985fd;
+    color: #fff;
+    padding: 0.5rem;
+    border: 1px solid #4254f5;
+    border-top-left-radius: 0.5rem;
+}
+
+#announcement .title h3 {
+    font-size: 1.3125rem;
+    margin: 0;
+    padding: 0;
+}
+#announcement .content {
+    border: 1px solid #4254f5;
+    border-top-right-radius: 0.5rem;
+    padding: 1.25rem;
+}
+
+/* our films shows */
+#shows .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+#shows .card {
+    margin: 0.2rem;
+}
+
+/* contact us style */
+#contact ul {
+    list-style: none;
+}
+#contact ul > li {
+    padding: 0.375rem;
+}
+#contact .contact-btn {
+    background: #2985fd;
+    color: #fff;
+
+}
+#contact .contact-btn:hover {
+    background: #4254f5;
+    color: #fff;
+    
+}
+/* sign in page styles */
+.sign-in {
+    max-width: 500px;
+    background: #fff;
+    color: #000;
+    padding: 0.625rem;
+    margin: 0.3125rem auto;
+}
+
+.sign-in .form-control {
+    border-radius: 0.375rem;
+}
+
+.sign-in .btn {
+    width: 100%;
+    background: #7ace4c;
+    color: #000;
+}
+
+.sign-in .btn-login:hover {
+    background: green;
+    color: #000;
+}
+
+/* registration page styles */
+.sign-up {
+    max-width: 500px;
+    background: #fff;
+    color: #000;
+    padding: 0.625rem;
+    margin: 0.3125rem auto;
+}
+
+.btn-register {
+    width: 100%;
+    background: #2985fd;
+    color: #fff;
+    border-color: #28a745;
+}
+  
+.btn-register:hover {
+    background: #4287f5;
+    color: #000;
+    border-color: #2985fd;
+}
+  
+.btn-register:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+/* footer style */
+.footer {
+    background: #000 url("../img/chicagofire.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+.footer h3 {
+    border-left: 4px solid #4287f5;
+    padding-left: 0.3rem;
+}
+.footer ul {
+    list-style-type: square;
+}
+.footer ul > li{
+    color: #4287f5;
+}
+.footer a {
+    color: #4287f5;
+    text-decoration: none;
+}
